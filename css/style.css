@@ -333,3 +333,9 @@ h1.skills-sub-group {
   font-size: 1.25rem;
   font-weight: 400;
 }
+
+img {
+  width: 250px;
+  height: 300px;
+  border-radius: 100px;
+}
