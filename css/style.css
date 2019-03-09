@@ -1,4 +1,3 @@
-@media (max-width: 768px)
 * {
     box-sizing: border-box;
 }
@@ -15,8 +14,7 @@ body {
 }
 
 #about-me{
-  background-image: url("http://oeeee.co/wp-content/uploads/2018/07/blue-orange-wallpaper-blue-and-orange-wallpaper-free-desktop-on-border.jpg");
-
+  background-color: black;
 }
 
 #skills{
@@ -78,7 +76,6 @@ h1.section-title {
   text-align: center;
   color: white;
   font-size: 70px;
-  margin-bottom: 50px;
 }
 
 #about-me .photo {
@@ -94,10 +91,11 @@ p.about-me-text {
   font-style: italic;
   font-weight: 500;
   margin-top: 120px;
+  /* padding-top: 100px; */
 }
 
 .section{
-  height: 700px;
+  height: 820px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,30 +184,31 @@ ul {
   width: 100%;
 }
 
-/* @media (max-width: 768px) */
+
 #skills .section-title {
   font-family: 'Raleway', sans-serif;
   color: #fbfaf9;
   font-size: 1.875em;
-  font-weight: 200;
+  font-weight: bold;
   border-bottom: 0.0625rem #fcfaf9 solid;
   padding-bottom: 3rem;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
-/* @media (max-width: 768px) */
+
 #about-me .section-title {
   font-family: 'Raleway', sans-serif;
   color: #fbfaf9;
   font-size: 1.875em;
-  font-weight: 200;
+  font-weight: 900;
   border-bottom: 0.0625rem #fcfaf9 solid;
   padding-bottom: 3rem;
   text-align: center;
+  margin-top: 70px;
 }
 
-/* @media (max-width: 768px) */
+
 #portfolio .section-title {
   font-family: 'Raleway', sans-serif;
   color: #fbfaf9;
@@ -234,67 +233,67 @@ ul {
 }
 
 .devicon-github-plain {
-  font-size: 3rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-mongodb-plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-react-original-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-sass-original colored {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-webpack-plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-postgresql-plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon--plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-heroku-plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-github-plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-mocha-plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-heroku-plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-sass-original {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-javascript-plain {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
@@ -304,17 +303,17 @@ ul {
 }
 
 .devicon-jquery-plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-css3-plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
     padding: 40px;
 }
 
 .devicon-html5-plain-wordmark {
-  font-size: 10rem;
+  font-size: 8rem;
   padding: 40px;
 }
 
@@ -338,4 +337,20 @@ img {
   width: 250px;
   height: 300px;
   border-radius: 100px;
+}
+
+
+.about .about-techList li {
+    display: flex;
+    flex-direction: column;
+    background-color: #3a3f41;
+    color: white;
+    padding: 6px;
+    height: 60px;
+    width: 85px;
+    border-radius: 4px;
+    margin: 4px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
