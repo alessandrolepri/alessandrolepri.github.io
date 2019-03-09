@@ -14,7 +14,7 @@ body {
 }
 
 #about-me{
-  background-color: black;
+  background-color: #432d1f;
 }
 
 #skills{
@@ -87,11 +87,13 @@ h1.section-title {
 }
 
 p.about-me-text {
-  color: black;
+  color: white;
   font-style: italic;
   font-weight: 500;
   margin-top: 120px;
-  /* padding-top: 100px; */
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: justify;
 }
 
 .section{
