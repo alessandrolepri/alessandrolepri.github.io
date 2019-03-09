@@ -94,6 +94,7 @@ p.about-me-text {
   padding-left: 200px;
   padding-right: 200px;
   text-align: justify;
+  margin-top: 50px;
 }
 
 .section{
@@ -336,9 +337,10 @@ h1.skills-sub-group {
 }
 
 img {
-  width: 250px;
-  height: 300px;
+  width: 15.5rem;
+  height: 15.5rem;
   border-radius: 100px;
+  display:block;
 }
 
 
