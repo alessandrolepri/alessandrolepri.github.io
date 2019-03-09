@@ -75,7 +75,7 @@ h1.section-title {
   display: block;
   text-align: center;
   color: white;
-  font-size: 70px;
+  font-size: 90px;
 }
 
 #about-me .photo {
@@ -84,6 +84,13 @@ h1.section-title {
     border-radius: 100%;
     margin: 1.25rem auto;
     border: 0.0625rem white solid;
+}
+
+img {
+  width: 15.5rem;
+  height: 15.5rem;
+  border-radius: 100px;
+  display:block;
 }
 
 p.about-me-text {
@@ -115,7 +122,8 @@ div.title-div{
   left: 50%;
   margin: -100px 0 0 -150px;
 }
-  h1.name{
+
+h1.name{
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     color: white;
@@ -126,14 +134,14 @@ div.title-div{
     animation-name: title-animation;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-  }
+}
 
-  @keyframes title-animation {
+@keyframes title-animation {
     from {left: 200px; color: rgba(255, 255, 255, 0);}
     to {left: 0; color: rgba(255, 255, 255, 1)}
 }
 
-  h1.job{
+h1.job{
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     color: white;
@@ -145,13 +153,14 @@ div.title-div{
     animation-name: job-animation;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-  }
-  @keyframes job-animation {
+}
+
+@keyframes job-animation {
     from {left: -200px; color: rgba(255, 255, 255, 0);}
     to {left: 0; color: rgba(255, 255, 255, 1)}
-  }
+}
 
-  a.learn-more{
+a.learn-more{
     background-color: #363636;
     color: white;
     border: none;
@@ -163,17 +172,17 @@ div.title-div{
     animation-name: learn-more-animation;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-  }
+}
 
-  a.learn-more:hover {
+a.learn-more:hover {
     background-color: #111;
     color: #fefefe;
   }
 
-  @keyframes learn-more-animation {
+@keyframes learn-more-animation {
     from {top: 200px; opacity: 0;}
     to {top: 0; opacity: 1;}
-  }
+}
 
 ul {
   z-index: 2;
@@ -196,7 +205,7 @@ ul {
   border-bottom: 0.0625rem #fcfaf9 solid;
   padding-bottom: 3rem;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 
@@ -235,96 +244,37 @@ ul {
   display: block;
 }
 
-.devicon-github-plain {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-mongodb-plain-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-react-original-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-sass-original colored {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-webpack-plain-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-postgresql-plain-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon--plain-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-heroku-plain-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-github-plain-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-mocha-plain-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-heroku-plain-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-sass-original {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-javascript-plain {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-python-plain-wordmark {
-  font-size: 10rem;
-    padding: 40px;
-}
-
-.devicon-jquery-plain-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-css3-plain-wordmark {
-  font-size: 8rem;
-    padding: 40px;
-}
-
-.devicon-html5-plain-wordmark {
-  font-size: 8rem;
-  padding: 40px;
-}
-
 h1.skills-sub-group {
+  font-family: 'Raleway', sans-serif;
   text-align: center;
-  font-size: 35px;
+  font-weight: 200;
+  font-size: 1.875em;
+  margin-bottom: 5px;
   color: white;
-  margin-bottom: 40px;
+}
+
+#skills .section-title {
+  margin-top: 25px;
+}
+
+.skills-icon-div {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  flex-direction: row;
+}
+
+.column {
+  display: block;
+  padding-left: .75rem;
+}
+
+.column.is-full-mobile {
+  flex: none;
+  width: 100%;
 }
 
 
@@ -336,25 +286,70 @@ h1.skills-sub-group {
   font-weight: 400;
 }
 
-img {
-  width: 15.5rem;
-  height: 15.5rem;
-  border-radius: 100px;
-  display:block;
+.devicon-html5-plain {
+  font-size: 6rem;
 }
 
+.devicon-css3-plain {
+  font-size: 4.5rem;
+}
 
-.about .about-techList li {
-    display: flex;
-    flex-direction: column;
-    background-color: #3a3f41;
-    color: white;
-    padding: 6px;
-    height: 60px;
-    width: 85px;
-    border-radius: 4px;
-    margin: 4px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+.devicon-javascript-plain {
+  font-size: 4.5rem;
+}
+
+.devicon-jquery-plain {
+  font-size: 4.5rem;
+}
+
+.devicon-python-plain {
+  font-size: 4.5rem;
+}
+
+.devicon-react-plain {
+  font-size: 4.5rem;
+}
+
+.devicon-sass-plain{
+  font-size: 4.5rem;
+}
+
+.devicon-express-original {
+  font-size: 4.5rem;
+}
+
+.devicon-nodejs-plain {
+  font-size: 4.5rem;
+}
+
+.devicon-mongodb-plain {
+  font-size: 4.5rem;
+}
+
+.devicon-postgresql-plain{
+  font-size: 4.5rem;
+}
+
+.devicon-heroku-plain {
+  font-size: 4.5rem;
+}
+
+.devicon-github-plain {
+  font-size: 4.5rem;
+}
+
+.devicon-mocha-plain {
+  font-size: 4.5rem;
+}
+
+.devicon-trello-plain {
+  font-size: 4.5rem;
+}
+
+.devicon-atom-original {
+  font-size: 4.5rem;
+}
+
+.fa-slack {
+  font-size: 4.5rem;
 }
