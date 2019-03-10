@@ -40,6 +40,14 @@ h1.name {
   font-weight: 200;
   position: relative;
   font-weight: bold;
+  display: block;
+  margin-top: -100px;
+  position: fixed;
+  /* display: inline-block; */
+  margin-top: 300px;
+    margin-left: 300px;
+    padding: auto;
+    margin-right: -450px;
 }
 
 h1.job {
@@ -49,6 +57,11 @@ h1.job {
   font-weight: 200;
   position: relative;
   font-weight: bold;
+  display: block;
+  /* margin-top: 300px; */
+  margin-left: 300px;
+  /* padding: auto; */
+  margin-right: -450px;
 }
 
 li {
@@ -126,7 +139,7 @@ div.title-div{
   width: 50%;
   margin: 0 auto;
   text-align: right;
-  position: absolute;
+  /* position: absolute; */
   z-index: 1;
   top: 50%;
   left: 50%;
@@ -182,6 +195,7 @@ a.learn-more{
   animation-name: learn-more-animation;
   animation-duration: 2s;
   animation-fill-mode: forwards;
+  margin-right: -450px;
 }
 
 a.learn-more:hover {
