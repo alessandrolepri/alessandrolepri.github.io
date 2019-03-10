@@ -80,6 +80,7 @@ h1.section-title {
 
 a.button {
   margin-right: 20px;
+  border: 1px solid black;
 }
 
 a {
@@ -409,13 +410,37 @@ img.transition {
   text-decoration: none;
   border: 1px solid coral;
   border-radius: 4px;
-  padding: 6px 10px;
   width: 150px;
   margin: 3px 6px 3px 0;
   text-align: center;
 }
 
 .project a:hover {
-    color: #3a3f41;
-    background-color: coral;
+  color: #3a3f41;
+  background-color: coral;
+}
+
+p {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h2.projectTitle {
+  color: white;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+
+@media only screen and (min-width: 320px) {
+  * {
+      box-sizing: border-box;
+  }
+  p.about-me-text {
+    padding: 0;
+  }
+  #home .section.home {
+    display: block;
+  }
 }
