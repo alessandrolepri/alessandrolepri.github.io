@@ -413,8 +413,8 @@ img.transition {
 }
 
 .project .project-links {
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -422,7 +422,7 @@ img.transition {
   color: coral;
   display: inline-block;
   text-decoration: none;
-  border: 1px solid coral;
+  /* border: 1px solid coral; */
   border-radius: 4px;
   width: 150px;
   margin: 3px 6px 3px 0;
