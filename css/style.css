@@ -481,7 +481,16 @@ h2.projectTitle {
     margin-left: 260px;
     margin-right: 0;
   }
-  #home .section.home {
-    display: block;
+  img.flask {
+    width: 72px;
+    height: 73px;
+    margin-left: -164px;
+    margin-top: 10px;
+  }
+  img.bulma {
+    width: 72px;
+    height: 73px;
+    margin-left: 164px;
+    margin-top: 10px;
   }
 }
