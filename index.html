@@ -11,16 +11,13 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
   </head>
 
   <body>
 
     <ul class="navbar-container">
 
-      <li class="navbar-li">
-        <a class="navbar-a" href="#home"> HOME </a>
-      </li>
 
       <li class="navbar-li">
         <a class="navbar-a" href="#contact"> Contact </a>
@@ -36,6 +33,10 @@
 
       <li class="navbar-li">
         <a class="navbar-a" href="#about-me"> About Me </a>
+      </li>
+
+      <li class="navbar-li-left">
+        <a class="navbar-a" href="#home"> HOME </a>
       </li>
 
     </ul>
@@ -66,49 +67,55 @@
       </div>
     </div>
 
-    <div id="skills" class="section skills">
+    <section id="skills" class="section skills">
       <h1 class="section-title"> SKILLS </h1>
+      <div class="container">
       <div class="columns is-multiline is-desktop is-mobile skills-wrap">
         <div class="column is-half-desktop is-full-mobile">
         <h1 class="skills-sub-group"> LANGUAGES </h1>
         <div class="skills-icon-div">
-          <i class="devicon-html5-plain skills-icon"> </i>
-          <i class="devicon-css3-plain skills-icon"> </i>
-          <i class="devicon-javascript-plain skills-icon"> </i>
-          <i class="devicon-jquery-plain skills-icon"> </i>
-          <i class="devicon-python-plain skills-icon"> </i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored skills-icon"> </i>
+          <i class="devicon-javascript-plain colored skills-icon"> </i>
+          <i class="devicon-jquery-plain-wordmark colored skills-icon"> </i>
+          <i class="devicon-python-plain-wordmark colored skills-icon"> </i>
         </div>
       </div>
       <div class="column is-half-desktop is-full-mobile">
         <h1 class="skills-sub-group"> FRONT END </h1>
         <div class="skills-icon-div">
-          <i class="devicon-react-plain skills-icon"> </i>
-          <i class="devicon-sass-plain skills-icon"> </i>
+          <img class="flask" src="images/flask.png">
+          <i class="devicon-react-original-wordmark colored"></i>
+          <i class="devicon-webpack-plain-wordmark colored"></i>
+          <img class="bulma" src="images/bulma.png">
+          <i class="devicon-sass-plain colored skills-icon"> </i>
         </div>
       </div>
       <div class="column is-half-desktop is-full-mobile">
         <h1 class="skills-sub-group"> BACK END </h1>
         <div class="skills-icon-div">
-          <i class="devicon-express-original skills-icon"> </i>
-          <i class="devicon-postgresql-plain"> </i>
-          <i class="devicon-nodejs-plain skills-icon"> </i>
-          <i class="devicon-mongodb-plain skills-icon"> </i>
+          <i class="devicon-express-original-wordmark colored"></i>
+          <i class="devicon-postgresql-plain-wordmark colored"> </i>
+          <i class="devicon-nodejs-plain-wordmark colored"></i>
+          <i class="devicon-mongodb-plain-wordmark colored"></i>
         </div>
       </div>
       <div class="column is-half-desktop is-full-mobile">
         <h1 class="skills-sub-group"> TOOLS </h1>
         <div class="skills-icon-div">
-          <i class="devicon-trello-plain skills-icon"> </i>
-          <i class="devicon-github-plain skills-icon"> </i>
-          <i class="devicon-heroku-plain skills-icon"> </i>
-          <i class="devicon-mocha-plain skills-icon"> </i>
-          <i class="devicon-atom-original"></i>
-          <i class="fab fa-slack"></i>
+          <i class="devicon-trello-plain-wordmark colored"></i>
+          <i class="devicon-github-plain-wordmark colored skills-icon"> </i>
+          <i class="devicon-heroku-plain-wordmark colored skills-icon"> </i>
+          <i class="devicon-mocha-plain colored skills-icon"> </i>
+          <i class="devicon-atom-original colored"></i>
+          <i class="devicon-slack-plain-wordmark colored"></i>
+
         </div>
       </div>
 
     </div>
   </div>
+  </section>
 
 
     <section id="portfolio" class="section portfolio">
@@ -124,7 +131,7 @@
        <div class="column transition left">
          <h2 class="projectTitle">Ultimate Tic-Tac-Toe (Project 1 - solo)</h2>
          <p>Ultimate tic-tac-toe is a board game (2 players in the same screen) composed of nine tic-tac-toe boards arranged in a 3-by-3 grid. Players take turns playing in the smaller tic-tac-toe boards until one of them wins in the larger tic-tac-toe board.</p>
-         <p> Build: HTML | CSS | JavaScript </p>
+         <p><strong> Build:</strong> HTML | CSS | JavaScript </p>
          <div class="project-links">
            <a href="https://alessandrolepri.github.io/WDI38--Project-01/" target="_blank"><i class="fas fa-link"></i> Launch project</a>
            <a href="https://github.com/alessandrolepri/WDI38--Project-01" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
@@ -139,7 +146,7 @@
        <div class="column transition left">
          <h2 class="projectTitle">Eventify - React Hackathon (Project 2 - 2 members)</h2>
          <p>Worked in a group of two to create a React App in a day. Targeting people looking for something to do, we mashed up the Skiddle events API and the mapbox GL API to create a simple map-based app that tells users what is happening around them on that day. Completed through a combination of pair-coding and allocating independent tasks with Trello. </p>
-         <p> Build: HTML | CSS | JavaScript | React </p>
+         <p><strong> Build:</strong> HTML | CSS | JavaScript | React </p>
          <div class="project-links">
            <a href="https://hackathon-react-one-day.herokuapp.com/" target="_blank"><i class="fas fa-link"></i> Launch project </a>
            <a href="https://github.com/alessandrolepri/WDI38-project-2" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
@@ -154,7 +161,7 @@
        <div class="column transition left">
          <h2 class="projectTitle">City Spot (Project 3 - 4 members)</h2>
          <p>A group project to design a full-stack React/Express app with a NoSQL database. City Spot is a web application combining 5 APIs, where users can sign up and comment images from their travels all over the World and start interacting with the City-Spot Community and posting the best spot from the city you have been to. All cities in our database are integrated with 3 APIs to provide weekly local forecast, Events and Restaurant recommendation. </p>
-         <p> Build: React | Node | MongoDB | Express | Semantic UI </p>
+         <p> <strong> Build:</strong> React | Node.js | MongoDB | Express | Semantic UI </p>
          <div class="project-links">
            <a href="https://project-3-alexlepri.herokuapp.com/" target="_blank"><i class="fas fa-link"></i> Launch project</a>
            <a href="https://github.com/alessandrolepri/project-03" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
@@ -169,7 +176,7 @@
        <div class="column transition left">
          <h2 class="projectTitle">READ-ME (Project 4 - 3 members)</h2>
          <p>What if you don’t even know where to start on your story? READ-ME is an APP for writers and readers that can definitely help. This app is a SQL database written with Python and React that can help you lay the groundwork for your story, from organising all of your novel’s major events. By using Reddit APIs we were able to work on our join tables and relationships in order to provide a great experience for all our users. </p>
-         <p> Build: Python | React | PostgreSQL | Flask | Marshmallow |  SQLAlchemy | Semantic UI </p>
+         <p> <strong> Build:</strong> Python | React | PostgreSQL | Flask | Marshmallow |  SQLAlchemy | Semantic UI </p>
 
          <div class="project-links">
            <a href="https://read-mee.herokuapp.com/" target="_blank"><i class="fas fa-link"></i> Launch project</a>
@@ -190,8 +197,6 @@
        </div>
      </div>
    </div>
-
-
 
   </body>
 </html>
