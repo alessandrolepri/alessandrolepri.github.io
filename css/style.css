@@ -2,21 +2,15 @@
     box-sizing: border-box;
 }
 
-/* body {
-  background-image: url("http://oeeee.co/wp-content/uploads/2018/07/blue-orange-wallpaper-blue-and-orange-wallpaper-free-desktop-on-border.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 #home {
   background-image: url("http://oeeee.co/wp-content/uploads/2018/07/blue-orange-wallpaper-blue-and-orange-wallpaper-free-desktop-on-border.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 820px;
 }
 
 #about-me {
   background-color: white;
+  flex-direction: column;
 }
 
 #portfolio {
@@ -25,11 +19,6 @@
 
 #skills {
   background-color: white;
-  /* background-image: url("http://oeeee.co/wp-content/uploads/2018/07/blue-orange-wallpaper-blue-and-orange-wallpaper-free-desktop-on-border.jpg"); */
-}
-
-#education {
-  background-image: url("http://oeeee.co/wp-content/uploads/2018/07/blue-orange-wallpaper-blue-and-orange-wallpaper-free-desktop-on-border.jpg");
 }
 
 #contact{
@@ -123,31 +112,39 @@ a {
 }
 
 #about-me .photo {
-  height: 12.5rem;
+  height: 600px;
   width: 12.5rem;
   border-radius: 100%;
   margin: 1.25rem auto;
   /* border: 0.0625rem dodgerblue solid; */
 }
 
+.photo {
+  float: left
+}
+
 img {
-  width: 15.5rem;
-  height: 19.5rem;
-  border-radius: 100px;
+  width: 24.5rem;
+  height: 28.5rem;
+  /* border-radius: 100px; */
   display: block;
   position: absolute;
   image-resolution: snap;
-  margin-top: auto;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 
 p.about-me-text {
   color: black;
   /* font-style: italic; */
-  font-weight: bold;
+  font-weight: 400;
   text-align: justify;
-  margin-top: 120px;
-  padding-left: 100px;
-  padding-right: 100px;
+  margin-top: 90px;
+  /* padding-left: 170px;
+  padding-right: 120px; */
+  margin-left: 350px;
+  display: block;
+  margin-right: 200px;
 }
 
 .section{
@@ -331,10 +328,6 @@ h1.skills-sub-group {
   margin-top: 100px;
 }
 
-/* #contact.section.portfolio {
-  height: 250px;
-} */
-
 .devicon-html5-plain-wordmark {
   font-size: 4.5rem;
 }
@@ -427,6 +420,7 @@ img.transition {
   height: 300px;
   margin-top: 35px;
   margin-bottom: 35px;
+  padding-right: 30px;
 }
 
 .column.transition.left {
@@ -473,14 +467,17 @@ h2.projectTitle {
 }
 
 
-/* @media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) {
   * {
       box-sizing: border-box;
   }
   p.about-me-text {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 260px;
+    margin-right: 0;
   }
   #home .section.home {
     display: block;
   }
-} */
+}
