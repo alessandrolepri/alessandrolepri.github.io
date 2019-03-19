@@ -2,134 +2,97 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Alex Lepri | Web Developer </title>
-
-    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_yDEQ_y2qDwJls9usmQHhDlhiM1LOK0CrnGWK_4cv3gAT5kIc" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+    <title>Alex Lepri | Web Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Lato|Monoton|Permanent+Marker|Tajawal" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
   </head>
 
   <body>
 
-    <ul class="navbar-container">
-
-
-      <li class="navbar-li">
-        <a class="navbar-a" href="#contact"> Contact </a>
-      </li>
-
-      <li class="navbar-li">
-        <a class="navbar-a" href="#portfolio"> Portfolio </a>
-      </li>
-
-      <li class="navbar-li">
-        <a class="navbar-a" href="#skills"> Skills </a>
-      </li>
-
-      <li class="navbar-li">
-        <a class="navbar-a" href="#about-me"> About Me </a>
-      </li>
-
-      <li class="navbar-li-left">
-        <a class="navbar-a" href="#home"> HOME </a>
-      </li>
-
-    </ul>
-
-    <div id="home" class="section home">
-      <div class="title-div is-full-desktop is-full-mobile">
-        <h1 class="name">Alessandro Lepri</h1>
-        <h1 class="job">Junior Full Stack Developer</h1>
-        <!-- <a href="#about-me" class="button learn-more"> Learn More </a> -->
+    <nav>
+      <div class="nav-logo">
+        <a href="#"> HOME </a>
       </div>
-    </div>
+      <ul id="menu">
+        <li><a href="#about">Contact</a></li>
+        <li><a href="#skills">Portfolio</a></li>
+        <li><a href="#portfolio">Skills</a></li>
+        <li><a href="#contact">About</a></li>
+      </ul>
+    </nav>
 
-    <div id="about-me" class="section about-me-div">
-      <div>
-        <h1 class="section-title"> ABOUT ME </h1>
-      </div>
-      <div class="photo">
-        <img src="images/Alessandro.jpg">
-      </div>
-      <div class="columns is-multiline is-mobile about-me-columns">
-        <div class="column is-half-desktop is-multiline is-full-mobile">
-          <p class="about-me-text">
-          After 7 years in management and customer service, I changed my career into web development. Starting from scratch, my motivation and ambition to become a full-stack developer helped me to overcome difficulties and pressure. I have recently completed a 12 weeks bootcamp with General Assembly and I created 4 projects developing both front-end and back-end. Coding taught me an important lesson: to stay curious and keep a lifelong learning approach to anything I do. This journey boosted my analytical thinking skills and I learned that for solving big problems we have to break them down into minor ones. <br>
-          For the last 2 and a half years, I have worked in a non-technical role for a different industry. I enjoyed working in a dynamic environment for a company that I was passionate about like wines and spirits.<br>
-          I was introduced to coding which led me to the Web Development Immersive course at General Assembly. This has fused my love of creativity and logic together which is why I have decided to make this life change.
-          </p>
+    <section class="hero">
+      <div class="hero-container">
+
+        <div class="hero-panel">
+          <h1> Alessandro Lepri </h1>
+          <h2> FULL-STACK DEVELOPER </h2>
         </div>
       </div>
-    </div>
+    </section>
 
-    <section id="skills" class="section skills">
-      <h1 class="section-title"> SKILLS </h1>
+    <section id="about" class="about">
       <div class="container">
-      <div class="columns is-multiline is-desktop is-mobile skills-wrap">
-        <div class="column is-half-desktop is-full-mobile">
-        <h1 class="skills-sub-group"> LANGUAGES </h1>
-        <div class="skills-icon-div">
+        <h1>About me...</h1>
+        <div class="project columns">
+
+          <div class="column">
+            <img class="transition" src="images/Alessandro.jpg" width="auto" height="300px">
+        </div>
+        <div class="column transition left">
+         <p>After 7 years in management and customer service, I changed my career into web development. Starting from scratch, my motivation and ambition to become a full-stack developer helped me to overcome difficulties and pressure. I have recently completed a 12 weeks bootcamp with General Assembly and I created 4 projects developing both front-end and back-end. Coding taught me an important lesson: to stay curious and keep a lifelong learning approach to anything I do. This journey boosted my analytical thinking skills and I learned that for solving big problems we have to break them down into minor ones. <br>
+          For the last 2 and a half years, I have worked in a non-technical role for a different industry. I enjoyed working in a dynamic environment for a company that I was passionate about like wines and spirits.<br>
+          I was introduced to coding which led me to the Web Development Immersive course at General Assembly. This has fused my love of creativity and logic together which is why I have decided to make this life change.</p>
+         </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-skills">
+      <div class="container">
+        <h1> SKILLS </h1>
+
+        <ul>
           <i class="devicon-html5-plain-wordmark colored"></i>
           <i class="devicon-css3-plain-wordmark colored skills-icon"> </i>
           <i class="devicon-javascript-plain colored skills-icon"> </i>
           <i class="devicon-jquery-plain-wordmark colored skills-icon"> </i>
           <i class="devicon-python-plain-wordmark colored skills-icon"> </i>
-        </div>
-      </div>
-      <div class="column is-half-desktop is-full-mobile">
-        <h1 class="skills-sub-group"> FRONT END </h1>
-        <div class="skills-icon-div">
-          <img class="flask" src="images/flask.png">
+          <img class="flask" src="images/flask.png" width:"30px" height="70px">
           <i class="devicon-react-original-wordmark colored"></i>
           <i class="devicon-webpack-plain-wordmark colored"></i>
-          <img class="bulma" src="images/bulma.png">
+          <img class="bulma" src="images/bulma.png" width:"30px" height="70px">
           <i class="devicon-sass-plain colored skills-icon"> </i>
-        </div>
-      </div>
-      <div class="column is-half-desktop is-full-mobile">
-        <h1 class="skills-sub-group"> BACK END </h1>
-        <div class="skills-icon-div">
           <i class="devicon-express-original-wordmark colored"></i>
           <i class="devicon-postgresql-plain-wordmark colored"> </i>
           <i class="devicon-nodejs-plain-wordmark colored"></i>
           <i class="devicon-mongodb-plain-wordmark colored"></i>
-        </div>
-      </div>
-      <div class="column is-half-desktop is-full-mobile">
-        <h1 class="skills-sub-group"> TOOLS </h1>
-        <div class="skills-icon-div">
           <i class="devicon-trello-plain-wordmark colored"></i>
           <i class="devicon-github-plain-wordmark colored skills-icon"> </i>
           <i class="devicon-heroku-plain-wordmark colored skills-icon"> </i>
           <i class="devicon-mocha-plain colored skills-icon"> </i>
           <i class="devicon-atom-original colored"></i>
-          <i class="devicon-slack-plain-wordmark colored"></i>
-
-        </div>
+        </ul>
       </div>
+    </section>
 
-    </div>
-  </div>
-  </section>
+    <section id="portfolio" class="section-portfolio">
 
+      <div class="container">
+        <h1>PORTFOLIO</h1>
+        <div class="project columns">
 
-    <section id="portfolio" class="section portfolio">
-      <h1 class="section-title"> PORTFOLIO </h1>
-    </div>
-
-   <div class="container">
-
-     <div class="project columns">
-       <div class="column">
-         <img class="transition" src="screenshot/tic-tac-toe.png">
+          <div class="column">
+            <img class="transition" src="screenshot/tic-tac-toe.png" width="85%" height="350px">
        </div>
        <div class="column transition left">
-         <h2 class="projectTitle">Ultimate Tic-Tac-Toe (Project 1 - solo)</h2>
+         <h2 class="projectTitle">Ultimate Tic-Tac-Toe (Individual project)</h2>
          <p>Ultimate tic-tac-toe is a board game (2 players in the same screen) composed of nine tic-tac-toe boards arranged in a 3-by-3 grid. Players take turns playing in the smaller tic-tac-toe boards until one of them wins in the larger tic-tac-toe board.</p>
          <p><strong> Build:</strong> HTML | CSS | JavaScript </p>
          <div class="project-links">
@@ -141,11 +104,11 @@
 
      <div class="project columns">
        <div class="column">
-         <img class="transition" src="screenshot/react.png">
+         <img class="transition" src="screenshot/react.png" width="85%" height="350px">
        </div>
        <div class="column transition left">
-         <h2 class="projectTitle">Eventify - React Hackathon (Project 2 - 2 members)</h2>
-         <p>Worked in a group of two to create a React App in a day. Targeting people looking for something to do, we mashed up the Skiddle events API and the mapbox GL API to create a simple map-based app that tells users what is happening around them on that day. Completed through a combination of pair-coding and allocating independent tasks with Trello. </p>
+         <h2 class="projectTitle">Eventify - React Hackathon (Group project - 2 members)</h2>
+         <p>Worked in a group of two to create a React App in two days. Targeting people looking for something to do, we mashed up the Skiddle events API and the mapbox GL API to create a simple map-based app that tells users what is happening around them on that day. Completed through a combination of pair-coding and allocating independent tasks with Trello. </p>
          <p><strong> Build:</strong> HTML | CSS | JavaScript | React </p>
          <div class="project-links">
            <a href="https://hackathon-react-one-day.herokuapp.com/" target="_blank"><i class="fas fa-link"></i> Launch project </a>
@@ -155,11 +118,12 @@
      </div>
 
      <div class="project columns">
+
        <div class="column">
-         <img class="transition" src="screenshot/cityspot.png">
+         <img class="transition" src="screenshot/cityspot.png" width="85%" height="350px">
        </div>
        <div class="column transition left">
-         <h2 class="projectTitle">City Spot (Project 3 - 4 members)</h2>
+         <h2 class="projectTitle">City Spot (Group project - 4 members)</h2>
          <p>A group project to design a full-stack React/Express app with a NoSQL database. City Spot is a web application combining 5 APIs, where users can sign up and comment images from their travels all over the World and start interacting with the City-Spot Community and posting the best spot from the city you have been to. All cities in our database are integrated with 3 APIs to provide weekly local forecast, Events and Restaurant recommendation. </p>
          <p> <strong> Build:</strong> React | Node.js | MongoDB | Express | Semantic UI </p>
          <div class="project-links">
@@ -170,33 +134,36 @@
      </div>
 
      <div class="project columns">
+
        <div class="column">
-         <img class="transition" src="screenshot/README.png">
+         <img class="transition" src="screenshot/README.png" width="85%" height="350px">
        </div>
        <div class="column transition left">
-         <h2 class="projectTitle">READ-ME (Project 4 - 3 members)</h2>
+         <h2 class="projectTitle">READ-ME (Group project - 3 members)</h2>
          <p>What if you don’t even know where to start on your story? READ-ME is an APP for writers and readers that can definitely help. This app is a SQL database written with Python and React that can help you lay the groundwork for your story, from organising all of your novel’s major events. By using Reddit APIs we were able to work on our join tables and relationships in order to provide a great experience for all our users. </p>
          <p> <strong> Build:</strong> Python | React | PostgreSQL | Flask | Marshmallow |  SQLAlchemy | Semantic UI </p>
 
-         <div class="project-links">
-           <a href="https://read-mee.herokuapp.com/" target="_blank"><i class="fas fa-link"></i> Launch project</a>
-           <a href="https://github.com/alessandrolepri/project-4" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-         </div>
-       </div>
-     </div>
+        <div class="project-links">
+          <a href="https://read-mee.herokuapp.com/" target="_blank"><i class="fas fa-link"></i> Launch project</a>
+          <a href="https://github.com/alessandrolepri/project-4" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+        </div>
+      </div>
+      </div>
+    </section>
 
-   </section>
+    <section id="contact">
+      <h1> GET IN TOUCH </h1>
+      <div class="contact-info">
 
-   <div id="contact" class="section contact-div">
-     <div>
-       <h1 class="section-title"> Get in Touch </h1>
-       <div class="contact-div">
-         <a href="mailto:alex.lepri84@gmail.com" class="button"> alex.lepri84@gmail.com</a>
-         <a href="https://www.linkedin.com/in/alessandrolepri/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-         <a href="https://github.com/alessandrolepri" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-       </div>
-     </div>
-   </div>
+        <a href="mailto:alex.lepri84@gmail.com"><i class="fas fa-envelope"></i> alex.lepri84@gmail.com </a>
+
+        <ul class="contact-list_inline">
+          <li><a href="https://www.linkedin.com/in/alessandrolepri/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="https://github.com/alessandrolepri" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+        </ul>
+
+      </div>
+    </section>
 
   </body>
 </html>

@@ -1,75 +1,18 @@
-* {
-    box-sizing: border-box;
-}
-
-#home {
-  background-image: url("http://oeeee.co/wp-content/uploads/2018/07/blue-orange-wallpaper-blue-and-orange-wallpaper-free-desktop-on-border.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#about-me {
-  background-color: white;
-  flex-direction: column;
-}
-
-#portfolio {
-  background-color: white;
-}
-
-#skills {
-  background-color: white;
-}
-
-#contact{
-  background-image: url("http://oeeee.co/wp-content/uploads/2018/07/blue-orange-wallpaper-blue-and-orange-wallpaper-free-desktop-on-border.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  margin: 0;
   width: 100%;
-  /* height: 8200px; */
-}
-
-h1.name {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 3.125em;
-  font-weight: 200;
-  position: relative;
-  font-weight: bold;
-  display: block;
-  margin-top: -100px;
-  position: fixed;
-  /* display: inline-block; */
-  margin-top: 300px;
-    margin-left: 300px;
-    padding: auto;
-    margin-right: -450px;
-}
-
-h1.job {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2.9em;
-  font-weight: 200;
-  position: relative;
-  font-weight: bold;
-  display: block;
-  /* margin-top: 300px; */
-  margin-left: 300px;
-  /* padding: auto; */
-  margin-right: -450px;
-}
-
-.navbar-container .navbar-li-left {
-    float: left;
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 1.1em;
 }
 
 li {
   float: right;
+  display: inline;
 }
 
 li a {
-  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -77,369 +20,153 @@ li a {
   font-weight: bold;
 }
 
+nav {
+  position: fixed;
+  color: white;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  background-color: black;
+}
+
+ul {
+  padding-right: 15px;
+  margin: 0;
+}
+
+.nav-logo {
+  margin: 10px;
+  font-size: 24px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 0;
+
+}
+
 li a:hover {
   background-color: coral;
   color: white;
 }
 
-h1.section-title {
-  margin-bottom: 44px;
-  box-sizing: inherit;
-  display: block;
+h1 {
+  font-size: 54px;
   text-align: center;
-  color: white;
-  font-size: 50px;
-  margin-top: 100px;
+  color: dodgerblue;
+  border-bottom: 1px solid dodgerblue;
+  padding-bottom: 25px;
 }
 
-a.button {
-  margin-right: 20px;
-  margin-top: 10px;
-  border: 1px solid black;
-  /* font-size: 1.4rem; */
-}
-
-a.button.learn-more:hover {
-  background-color: coral;
-}
-
-a {
-  margin-right: 20px;
-}
-
-#contact.section.contact-div {
-  height: 820px;
-}
-
-#about-me .photo {
-  height: 600px;
-  width: 12.5rem;
-  border-radius: 100%;
-  margin: 1.25rem auto;
-  /* border: 0.0625rem dodgerblue solid; */
-}
-
-.photo {
-  float: left
-}
-
-img {
-  width: 24.5rem;
-  height: 28.5rem;
-  /* border-radius: 100px; */
-  display: block;
-  position: absolute;
-  image-resolution: snap;
-  margin-top: 50px;
-  margin-left: 40px;
-}
-
-p.about-me-text {
-  color: black;
-  /* font-style: italic; */
-  font-weight: 400;
-  text-align: justify;
-  margin-top: 90px;
-  /* padding-left: 170px;
-  padding-right: 120px; */
-  margin-left: 350px;
-  display: block;
-  margin-right: 200px;
-}
-
-.section{
-  height: 820px;
+.hero, #contact {
+  background-image: url("http://oeeee.co/wp-content/uploads/2018/07/blue-orange-wallpaper-blue-and-orange-wallpaper-free-desktop-on-border.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
-div.title-div{
-  width: 50%;
-  margin: 0 auto;
-  text-align: right;
-  /* position: absolute; */
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  margin: -100px 0 0 -150px;
-}
-
-h1.name{
-  font-family: 'Raleway', sans-serif;
-  font-size: 50px;
-  color: white;
-  position: relative;
-  -webkit-animation-name: title-animation;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: title-animation;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes title-animation {
-  from {left: 200px; color: rgba(255, 255, 255, 0);}
-  to {left: 0; color: rgba(255, 255, 255, 1)}
-}
-
-h1.job{
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
-  color: white;
-  margin-bottom: 5px;
-  position: relative;
-  -webkit-animation-name: job-animation;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: job-animation;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes job-animation {
-  from {left: -200px; color: rgba(255, 255, 255, 0);}
-  to {left: 0; color: rgba(255, 255, 255, 1)}
-}
-
-a.learn-more{
-  background-color: #363636;
-  color: white;
-  border: none;
-  font-weight: bold;
-  position: relative;
-  -webkit-animation-name: learn-more-animation;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: learn-more-animation;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  margin-right: -450px;
-}
-
-a.learn-more:hover {
-  background-color: #111;
-  color: #fefefe;
-}
-
-@keyframes learn-more-animation {
-  from {top: 200px; opacity: 0;}
-  to {top: 0; opacity: 1;}
-}
-
-ul {
-  z-index: 2;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-
-#skills .section-title {
-  font-family: 'Raleway', sans-serif;
-  color: dodgerblue;
-  font-size: 1.875em;
-  font-weight: bold;
-  border-bottom: 1px dodgerblue solid;
-  /* border-top: 1px coral solid; */
-  padding-bottom: 3rem;
-  /* padding-top: 3rem; */
-  text-align: center;
-  margin-top: 90px;
-}
-
-
-#about-me .section-title {
-  font-family: 'Raleway', sans-serif;
-  color: dodgerblue;
-  font-size: 1.875em;
-  font-weight: 900;
-  border-bottom: 1px dodgerblue solid;
-  padding-bottom: 3rem;
-  text-align: center;
-  margin-top: 25px;
-}
-
-
-#portfolio .section-title {
-  font-family: 'Raleway', sans-serif;
-  color: dodgerblue;
-  font-size: 1.875em;
-  font-weight: bold;
-  /* border-bottom: 0.0625rem #fcfaf9 solid; */
-  border-bottom: 1px dodgerblue solid;
-  padding-bottom: 3rem;
-  text-align: center;
-  margin-top: 25px;
-}
-
-#portfolio.section.portfolio {
-  height: 1750px;
-}
-
-h1.skills-sub-group {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  font-weight: 200;
-  font-size: 1.875em;
-  margin-bottom: 5px;
-  color: white;
-}
-
-#skills .section-title {
-  margin-top: 25px;
-}
-
-.skills-icon-div {
-  width: 100%;
-  margin: auto;
+.hero-container {
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  flex-wrap: wrap;
-  padding-right: 30px;
+  align-items: center;
+  width: 100vw;
+}
+
+.hero-panel {
+  padding: 120px 40px 0px 40px;
+  margin-bottom: 200px;
+  /* margin-left: 6vw; */
+  margin-top: 160px;
+  flex-grow: 1;
+  /* align-items: baseline; */
+}
+
+.hero-panel h1, h2 {
+  color: white;
+  border-bottom: none;
+}
+
+.hero {
+  height: 115vh;
+  width: 100%;
+}
+
+.container {
+  width: 80vw;
+margin: auto;
+}
+
+.columns {
+  display: flex;
   flex-direction: row;
 }
 
-.project.columns {
-  flex-direction: row-reverse;
-  margin-bottom: 20px;
-}
-
 .column {
-  display: block;
-  padding-left: .75rem;
+  width: 50%;
 }
 
-.column.is-full-mobile {
-  flex: none;
-  width: 100%;
+#about {
+  font-family: 'Permanent Marker', cursive;
 }
 
+p {
+  font-family: 'Lato', cursive;
+}
 
-#contact .contact-div {
-  font-family: 'Raleway', sans-serif;
-  color: white;
+.about {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
   text-align: center;
-  font-size: 2.4rem;
-  font-weight: bold;
-  margin-top: 100px;
+  padding-top: 35px;
 }
 
-.devicon-html5-plain-wordmark {
-  font-size: 4.5rem;
+a {
+  flex-grow: 1;
 }
 
-.devicon-css3-plain-wordmark {
-  font-size: 4.5rem;
-}
-
-.devicon-javascript-plain {
-  font-size: 4.5rem;
-}
-
-.devicon-jquery-plain-wordmark {
-  font-size: 4.5rem;
-}
-
-.devicon-python-plain-wordmark {
-  font-size: 4.5rem;
-}
-
-.devicon-react-original-wordmark {
-  font-size: 4.5rem;
-}
-
-.devicon-webpack-plain-wordmark {
-  font-size: 6rem;
-}
-
-.devicon-sass-plain {
-  font-size: 4.5rem;
-}
-
-.devicon-express-original-wordmark {
-  font-size: 6rem;
-}
-
-.devicon-nodejs-plain-wordmark {
-  font-size: 6rem;
-}
-
-.devicon-mongodb-plain-wordmark {
-  font-size: 4.5rem;
-}
-
-.devicon-postgresql-plain-wordmark {
-  font-size: 4.5rem;
-}
-
-.devicon-heroku-plain-wordmark {
-  font-size: 4.5rem;
-}
-
-.devicon-github-plain-wordmark {
-  font-size: 4.5rem;
-}
-
-.devicon-mocha-plain {
-  font-size: 4.5rem;
-}
-
-.devicon-trello-plain-wordmark {
-  font-size: 6rem;
-}
-
-.devicon-atom-original {
-  font-size: 4.5rem;
-}
-
-.devicon-slack-plain-wordmark {
-  font-size: 6rem;
-}
-
-.project-wrap {
-  margin: auto;
-}
-
-img.bulma {
-  width: 72px;
-  height: 73px;
-  margin-left: 200px;
-  margin-top: 10px;
-}
-
-img.flask {
-  width: 72px;
-  height: 73px;
-  margin-left: -200px;
-  margin-top: 10px;
-}
-
-img.transition {
-  border-radius: 0;
-  width: 500px;
-  height: 300px;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  padding-right: 30px;
-}
-
-.column.transition.left {
-  margin-top: 35px;
+.section-portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .project {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 150px;
 }
 
-.project .project-links {
-  /* display: flex; */
+/* .skip {
+  display: none;
+} */
+
+img {
+  display: inline-flex;
+  padding-top: 16px;
+}
+
+.project-links {
   flex-direction: row;
   justify-content: space-between;
+  display: flex;
+}
+
+.project a:hover {
+  background-color: coral;
+  color: white;
 }
 
 .project a {
@@ -452,45 +179,231 @@ img.transition {
   text-align: center;
 }
 
-.project a:hover {
+#skills {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#skills ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  margin: 0px;
+  justify-content: space-between;
+}
+
+#contact {
+  background-color: coral;
+  font-family: 'Permanent Marker', cursive;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #contact h1 {
+  margin-top: -120px;
+} */
+
+#contact h2, #contact a, #contact p, #contact ul {
   color: white;
+  text-align: center;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#contact a {
+  display: inline-block;
+  padding: 6px 10px;
+  margin: 6px 27px;
+  text-align: center;
+  font-size: 33px;
+}
+
+#contact .contact-list {
+  width: 260px;
+}
+
+#contact .contact-list a {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0px;
+}
+
+#contact .contact-list .contact-list_inline {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#contact .contact-list .contact-list_inline li {
+  width: 45%;
+}
+
+#contact a:hover {
   background-color: coral;
 }
 
-p {
-  color: black;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  text-align: justify;
+#contact li {
+  display: inline-block;
+}
+
+
+.devicon-html5-plain-wordmark {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-css3-plain-wordmark {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-javascript-plain {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-jquery-plain-wordmark {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-python-plain-wordmark {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-react-original-wordmark {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-webpack-plain-wordmark {
+  font-size: 8rem;
+  padding: 40px;
+}
+
+.devicon-sass-plain {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-express-original-wordmark {
+  font-size: 6rem;
+  padding: 40px;
+}
+
+.devicon-nodejs-plain-wordmark {
+  font-size: 6rem;
+  padding: 40px;
+}
+
+.devicon-mongodb-plain-wordmark {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-postgresql-plain-wordmark {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-heroku-plain-wordmark {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-github-plain-wordmark {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-mocha-plain {
+  font-size: 4.5rem;
+  padding: 40px;
+}
+
+.devicon-trello-plain-wordmark {
+  font-size: 6rem;
+  padding: 40px;
+}
+
+.devicon-atom-original {
+  font-size: 5rem;
+  padding: 40px;
+}
+
+.bulma {
+  padding-top: 46px;
+  padding: 40px;
+}
+
+.flask {
+  padding-top: 46px;
+  padding: 40px;
 }
 
 h2.projectTitle {
   color: coral;
   text-decoration: underline;
-  font-weight: bolder;
+  font-family: 'Lato', cursive;
 }
 
 
-@media only screen and (min-width: 320px) {
-  * {
-      box-sizing: border-box;
+
+@media all and (max-width: 1199px) {
+
+}
+@media all and (max-width: 991px) {
+  .container {
+    width: 90vw;
   }
-  p.about-me-text {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 260px;
-    margin-right: 0;
+
+
+  .project {
+      margin-bottom: 100px;
+    }
+}
+
+
+}
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 54px;
   }
-  img.flask {
-    width: 72px;
-    height: 73px;
-    margin-left: -164px;
-    margin-top: 10px;
+
+}
+@media all and (max-width: 575px) {
+
+  .columns {
+    display: block;
+
   }
-  img.bulma {
-    width: 72px;
-    height: 73px;
-    margin-left: 164px;
-    margin-top: 10px;
+
+  nav ul {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
   }
+
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+      margin-bottom: 60px;
+    }
+    .project-links{
+      flex-direction: column;
+    }
+  }
+
+@media all and (max-width: 400px) {
+
 }
