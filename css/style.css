@@ -51,7 +51,7 @@ a {
 }
 
 li a:hover {
-  background-color: coral;
+  background-color: dodgerblue;
   color: white;
 }
 
@@ -244,7 +244,7 @@ img {
 }
 
 #contact a:hover {
-  background-color: coral;
+  background-color: dodgerblue;
 }
 
 #contact li {
@@ -407,4 +407,8 @@ h2.projectTitle {
 
 @media all and (max-width: 400px) {
 
+}
+
+a:hover {
+  background-color: dodgerblue;
 }
