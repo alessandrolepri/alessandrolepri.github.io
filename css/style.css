@@ -389,11 +389,12 @@ h2.projectTitle {
 
   }
 
-  nav ul {
+
+  /* nav ul {
     max-height: 0;
     overflow: hidden;
     position: absolute;
-  }
+  } */
 
   .column {
     width: 100%;
