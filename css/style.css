@@ -1,5 +1,5 @@
 * {
-  scroll-behavior: smooth:
+  scroll-behavior: smooth;
 }
 
 body {
@@ -424,4 +424,52 @@ a:hover {
 
 #portfolio h1{
   padding-top: 50px;
+}
+
+.hero-panel h1 {
+    /* font-size: 3.125em;
+    font-weight: 200; */
+    position: relative;
+    -webkit-animation-name: title-animation;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: name;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes name {
+  from {
+    top: 100.5rem;}
+  to {
+    top: 0;}
+}
+
+.hero-panel h1 {
+  animation-name: name;
+  animation-duration: 2s;
+}
+
+
+.hero-panel h2 {
+
+    position: relative;
+    -webkit-animation-name: job;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: job;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes job {
+  from {
+    right: 90.5rem;}
+  to {
+    right: 0;}
+}
+
+.hero-panel h2 {
+  animation-name: job;
+  animation-duration: 3s;
 }
