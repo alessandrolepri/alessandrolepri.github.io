@@ -448,6 +448,10 @@ h3.projectTitle {
     justify-content: center;
   }
 
+  #contact a {
+    margin: 0px 8px;
+  }
+
   #contact h2 {
     font-size: 30px;
   }
