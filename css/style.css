@@ -381,9 +381,9 @@ h3.projectTitle {
   }
 
   .project {
-      margin-bottom: 100px;
-    }
+    margin-bottom: 100px;
   }
+}
 }
 @media all and (max-width: 768px) {
   h1 {
@@ -403,13 +403,13 @@ h3.projectTitle {
   .contact-info {
     display: block;
     padding: 0;
-}
+  }
 
-.devicon-sass-plain {
-  font-size: 5.5rem;
-  padding: 0;
-  padding-right: 39px;
-}
+  .devicon-sass-plain {
+    font-size: 5.5rem;
+    padding: 0;
+    padding-right: 39px;
+  }
 
   .section-skills .container {
     display: contents;
@@ -418,7 +418,7 @@ h3.projectTitle {
   .devicon-webpack-plain-wordmark {
     font-size: 10rem;
     padding: 0;
-}
+  }
 
   .flask, .bulma {
     padding: 0;
@@ -436,9 +436,9 @@ h3.projectTitle {
   }
 
   .project {
-      margin-bottom: 60px;
-    }
+    margin-bottom: 60px;
   }
+}
 
 @media all and (max-width: 400px) {
 
@@ -463,7 +463,7 @@ h3.projectTitle {
   .contact-info {
     display: block;
     padding: 0;
-}
+  }
 
   .devicon-sass-plain {
     font-size: 5.5rem;
@@ -478,7 +478,7 @@ h3.projectTitle {
   .devicon-webpack-plain-wordmark {
     font-size: 10rem;
     padding: 0;
-}
+  }
 
   .flask, .bulma {
     padding: 40px;
@@ -496,15 +496,15 @@ h3.projectTitle {
   }
 
   .project {
-      margin-bottom: 60px;
-    }
+    margin-bottom: 60px;
+  }
 
   #menu {
     padding-left: 0;
   }
 
   #menu li a {
-      font-weight: 500;
+    font-weight: 500;
   }
 
   ul#menu li {
@@ -542,45 +542,45 @@ a:hover {
 }
 
 .hero-panel h1 {
-    position: relative;
-    -webkit-animation-name: title-animation;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-name: name;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+  position: relative;
+  -webkit-animation-name: title-animation;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: name;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes name {
   from {
     top: 100.5rem;}
-  to {
-    top: 0;}
-}
+    to {
+      top: 0;}
+    }
 
-.hero-panel h1 {
-  animation-name: name;
-  animation-duration: 2s;
-}
+    .hero-panel h1 {
+      animation-name: name;
+      animation-duration: 2s;
+    }
 
-.hero-panel h2 {
-  position: relative;
-  -webkit-animation-name: job;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: job;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
+    .hero-panel h2 {
+      position: relative;
+      -webkit-animation-name: job;
+      -webkit-animation-duration: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-name: job;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+    }
 
-@keyframes job {
-  from {
-    right: 90.5rem;}
-  to {
-    right: 0;}
-}
+    @keyframes job {
+      from {
+        right: 90.5rem;}
+        to {
+          right: 0;}
+        }
 
-.hero-panel h2 {
-  animation-name: job;
-  animation-duration: 3s;
-}
+        .hero-panel h2 {
+          animation-name: job;
+          animation-duration: 3s;
+        }
