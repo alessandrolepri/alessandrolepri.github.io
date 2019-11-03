@@ -518,6 +518,13 @@ h3.projectTitle {
   }
 }
 
+@media all and (max-width: 395px) {
+
+  #menu li a {
+    padding: 10px 9px;
+  }
+}
+
 a:hover {
   background-color: dodgerblue;
 }
