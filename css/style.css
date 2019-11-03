@@ -456,11 +456,11 @@ h3.projectTitle {
     padding: 0;
 }
 
-.devicon-sass-plain {
-  font-size: 5.5rem;
-  padding: 0;
-  padding-right: 39px;
-}
+  .devicon-sass-plain {
+    font-size: 5.5rem;
+    padding: 0;
+    padding-right: 39px;
+  }
 
   .section-skills .container {
     display: contents;
@@ -472,7 +472,7 @@ h3.projectTitle {
 }
 
   .flask, .bulma {
-    padding: 0;
+    padding: 40px;
   }
 
   .columns {
@@ -494,6 +494,10 @@ h3.projectTitle {
     padding-left: 0;
   }
 
+  li a {
+    font-weight: 500;
+}
+
   ul#menu li {
     font-size: small;
   }
@@ -504,6 +508,8 @@ h3.projectTitle {
 
   .hero-panel h2 {
     text-align: center;
+    font-size: 30;
+    font-weight: bolder;
   }
 }
 
