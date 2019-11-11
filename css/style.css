@@ -208,6 +208,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
 }
 
 #contact h2, #contact a, #contact p, #contact ul {
