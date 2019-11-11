@@ -255,32 +255,34 @@ img {
   display: inline-block;
 }
 
-.devicon-html5-plain-wordmark {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
-.devicon-css3-plain-wordmark {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
-.devicon-javascript-plain {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
-.devicon-jquery-plain-wordmark {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
-.devicon-python-plain-wordmark {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
-.devicon-react-original-wordmark {
+.devicon-html5-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-javascript-plain,
+.devicon-jquery-plain-wordmark,
+.devicon-python-plain-wordmark,
+.devicon-react-original-wordmark,
+.devicon-sass-plain,
+.devicon-mongodb-plain-wordmark,
+.devicon-postgresql-plain-wordmark,
+.devicon-heroku-plain-wordmark,
+.devicon-trello-plain-wordmark,
+.devicon-github-plain-wordmark,
+.devicon-atom-original,
+.devicon-mocha-plain,
+.fab,
+.devicon-oracle-original.colored,
+.devicon-typescript-plain,
+.devicon-babel-plain.colored,
+.devicon-gitlab-plain-wordmark.colored,
+.devicon-sourcetree-plain-wordmark,
+.devicon-visualstudio-plain.colored,
+.devicon-gulp-plain,
+.devicon-git-plain,
+.devicon-confluence-plain-wordmark,
+.devicon-bootstrap-plain,
+.devicon-bitbucket-plain,
+.devicon-ssh-plain.colored,
+.devicon-slack-plain {
   font-size: 4.5rem;
   padding: 40px;
 }
@@ -290,53 +292,10 @@ img {
   padding: 40px;
 }
 
-.devicon-sass-plain {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
-.devicon-express-original-wordmark {
-  font-size: 6rem;
-  padding: 40px;
-}
-
-.devicon-nodejs-plain-wordmark {
-  font-size: 6rem;
-  padding: 40px;
-}
-
-.devicon-mongodb-plain-wordmark {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
-.devicon-postgresql-plain-wordmark {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
-.devicon-heroku-plain-wordmark {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
-.devicon-github-plain-wordmark {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
-.devicon-mocha-plain {
-  font-size: 4.5rem;
-  padding: 40px;
-}
-
+.devicon-express-original-wordmark,
+.devicon-nodejs-plain-wordmark,
 .devicon-trello-plain-wordmark {
   font-size: 6rem;
-  padding: 40px;
-}
-
-.devicon-atom-original {
-  font-size: 5rem;
   padding: 40px;
 }
 
